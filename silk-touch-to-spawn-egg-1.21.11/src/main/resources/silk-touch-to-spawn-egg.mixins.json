@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "goonball3.silktouchtospawnegg.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"LivingEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

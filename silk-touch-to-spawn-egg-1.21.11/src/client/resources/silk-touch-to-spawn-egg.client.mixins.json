@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "goonball3.silktouchtospawnegg.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

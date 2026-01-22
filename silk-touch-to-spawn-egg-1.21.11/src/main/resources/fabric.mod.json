@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "silk-touch-to-spawn-egg",
+	"version": "${version}",
+	"name": "silk touch to spawn egg",
+	"description": "killing mobs with silk touch will drop a spawn egg",
+	"authors": [
+		"goonball3"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/silk-touch-to-spawn-egg/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"goonball3.silktouchtospawnegg.Main"
+		],
+		"client": [
+			"goonball3.silktouchtospawnegg.SilkTouchToSpawnEggClient"
+		],
+		"modmenu": [
+			"goonball3.silktouchtospawnegg.ModMenu"
+		]
+	},
+	"mixins": [
+		"silk-touch-to-spawn-egg.mixins.json",
+		{
+			"config": "silk-touch-to-spawn-egg.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
