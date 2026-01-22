@@ -13,8 +13,9 @@ A Fabric mod for Minecraft 1.21.11 that allows you to obtain spawn eggs by killi
 
 1. Install [Fabric Loader](https://fabricmc.net/use/) 0.18.4 or higher
 2. Install [Fabric API](https://modrinth.com/mod/fabric-api)
-3. Download the latest release from the [Releases](https://github.com/goonball3/Silk-Touch-to-Spawn-Egg/releases) page
-4. Place the mod JAR file in your `mods` folder
+3. Also install mod menu
+4. Download the latest release from the [Releases](https://github.com/goonball3/Silk-Touch-to-Spawn-Egg/releases) page
+5. Place the mod JAR file in your `mods` folder
 
 ## Configuration
 
